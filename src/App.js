@@ -60,7 +60,7 @@ class App extends Component {
           data={this.state.data}
           columns={columns}
           filterable={true}
-          defaultPageSize={20}
+          defaultPageSize={10}
         />
       </div>
     );
